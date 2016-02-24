@@ -24,7 +24,8 @@ describe('Rides', function(){
       maxHeight: 7
     };
 
-    expect(rides.isTallEnough(child1, ride1)).toEqual(false)
+
+    expect(rides.isTallEnough(child1, ride2)).toEqual(false);
 
   });
 
